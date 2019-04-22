@@ -3,14 +3,14 @@ const app = express()
 const port = 3000
 
 app.use(express.static('public'));
-app.get('/', (req, res) => 
-{
-    res.sendFile(__dirname+'/public/index.html')
+
+app.get('/', function(req, res){
+    res.sendFile(__dirname+'/public/home.html')
 });
 
 app.get('/home', (req, res) => 
 {
-    res.sendFile(__dirname+'/public/home.html')
+    res.sendFile(__dirname+'/public/dashboard.html')
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
