@@ -7,7 +7,8 @@ yarn-error.log*
 
 .DS_Store
 
-
+public/vendor
+!public/vendor/iconfonts
 
 # Runtime data
 pids
