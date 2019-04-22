@@ -8,4 +8,9 @@ app.get('/', (req, res) =>
     res.sendFile(__dirname+'/public/index.html')
 });
 
+app.get('/home', (req, res) => 
+{
+    res.sendFile(__dirname+'/public/home.html')
+});
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))

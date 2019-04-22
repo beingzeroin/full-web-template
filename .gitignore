@@ -7,7 +7,7 @@ yarn-error.log*
 
 .DS_Store
 
-public/vendor
+
 
 # Runtime data
 pids
