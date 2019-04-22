@@ -1,0 +1,22 @@
+{
+  "name": "full-web-template",
+  "version": "1.0.0",
+  "description": "Website Template for Anyone to use and extend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beingzeroin/full-web-template.git"
+  },
+  "author": "Being Zero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beingzeroin/full-web-template/issues"
+  },
+  "homepage": "https://github.com/beingzeroin/full-web-template#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
