@@ -8,7 +8,7 @@ app.get('/', function(req, res){
     res.sendFile(__dirname+'/public/home.html')
 });
 
-app.get('/home', (req, res) => 
+app.get('/dashboard', (req, res) => 
 {
     res.sendFile(__dirname+'/public/dashboard.html')
 });
