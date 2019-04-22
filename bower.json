@@ -1,0 +1,25 @@
+{
+  "name": "full-web-template",
+  "description": "Website Template for Anyone to use and extend",
+  "main": "server.js",
+  "authors": [
+    "Being Zero"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/beingzeroin/full-web-template",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ace-builds": "^1.4.3",
+    "iCheck": "icheck#^1.0.2",
+    "lightgallery": "^1.6.12",
+    "summernote": "^0.8.11",
+    "iconfonts": "^0.12.0",
+    "tinymce": "^5.0.3"
+  }
+}
